@@ -36,7 +36,7 @@ export function PrintCV() {
 
         {/* Contact */}
         <div>
-          <div className="cv-sidebar-section-title">// Contacto</div>
+          <div className="cv-sidebar-section-title">{"// Contacto"}</div>
           <a href="mailto:rramirez.engineer@gmail.com" className="cv-sidebar-contact-item">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} width={9} height={9}>
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" />
@@ -65,7 +65,7 @@ export function PrintCV() {
 
         {/* Skills */}
         <div>
-          <div className="cv-sidebar-section-title">// Stack Tecnológico</div>
+          <div className="cv-sidebar-section-title">{"// Stack Tecnológico"}</div>
           {SIDEBAR_SKILLS.map((group) => (
             <div key={group.label} className="cv-sidebar-skill-group">
               <div className="cv-sidebar-skill-label">{group.label}</div>
@@ -80,7 +80,7 @@ export function PrintCV() {
 
         {/* Methodologies */}
         <div>
-          <div className="cv-sidebar-section-title">// Metodologías</div>
+          <div className="cv-sidebar-section-title">{"// Metodologías"}</div>
           <div className="cv-sidebar-methods">
             {SIDEBAR_METHODS.map((m) => (
               <span key={m} className="cv-sidebar-method-tag">{m}</span>
@@ -90,7 +90,7 @@ export function PrintCV() {
 
         {/* Languages */}
         <div>
-          <div className="cv-sidebar-section-title">// Idiomas</div>
+          <div className="cv-sidebar-section-title">{"// Idiomas"}</div>
           <div className="cv-sidebar-lang-item">
             <span className="cv-sidebar-lang-name">Español</span>
             <span className="cv-sidebar-lang-level">Nativo</span>
@@ -124,7 +124,7 @@ export function PrintCV() {
 
         {/* Experience */}
         <div>
-          <div className="cv-main-section-title">// Experiencia Laboral</div>
+          <div className="cv-main-section-title">{"// Experiencia Laboral"}</div>
           {EXPERIENCES.map((exp) => (
             <div key={exp.company} className="cv-exp-item">
               <div className="cv-exp-header">
@@ -159,7 +159,7 @@ export function PrintCV() {
 
         {/* Soft Skills */}
         <div>
-          <div className="cv-main-section-title">// Competencias Clave</div>
+          <div className="cv-main-section-title">{"// Competencias Clave"}</div>
           <div className="cv-softskills">
             {SOFT_SKILLS.map((s) => (
               <span key={s} className="cv-softskill-tag">{s}</span>
@@ -169,7 +169,7 @@ export function PrintCV() {
 
         {/* Education */}
         <div>
-          <div className="cv-main-section-title">// Educación</div>
+          <div className="cv-main-section-title">{"// Educación"}</div>
           <div className="cv-edu-item">
             <div className="cv-edu-degree">Ingeniería en Sistemas Informáticos</div>
             <div className="cv-edu-school">Universidad Abierta Interamericana</div>

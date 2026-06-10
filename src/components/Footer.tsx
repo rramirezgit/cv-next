@@ -134,7 +134,7 @@ export function Footer() {
           <span>
             &copy; 2026 Ricardo Ramirez. Todos los derechos reservados.
           </span>
-          <span className="mono">// built with passion</span>
+          <span className="mono">{"// built with passion"}</span>
         </div>
       </div>
     </footer>

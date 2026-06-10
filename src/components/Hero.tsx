@@ -118,7 +118,7 @@ export function Hero() {
       <div className="container">
         <div className="hero-content">
           <div className="hero-text">
-            <span className="hero-greeting gsap-hidden">// Hola, soy</span>
+            <span className="hero-greeting gsap-hidden">{"// Hola, soy"}</span>
             <h1 className="hero-name gsap-hidden">
               <span className="gradient-text">
                 {"Ricardo Ramirez".split("").map((char, i) => (
