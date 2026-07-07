@@ -129,7 +129,7 @@ export function Hero() {
               </span>
             </h1>
             <p className="hero-title gsap-hidden">
-              <strong>Senior Frontend Developer</strong> especializado en{" "}
+              <strong>Frontend Developer</strong> especializado en{" "}
               <strong>React</strong> · <strong>Next.js</strong> ·{" "}
               <strong>TypeScript</strong>
             </p>

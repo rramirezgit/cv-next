@@ -93,9 +93,9 @@ export function About() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              <strong>Frontend Developer Senior</strong> con{" "}
-              <strong>+8 años</strong> construyendo interfaces modernas,
-              performantes y mantenibles. Especialista en{" "}
+              <strong>Frontend Developer</strong> con sólida trayectoria
+              construyendo interfaces modernas, performantes y mantenibles.
+              Especialista en{" "}
               <strong>React, Next.js y TypeScript</strong>, con conocimientos
               sólidos en backend (<strong>Node.js, NestJS</strong>) para
               resolver soluciones full-stack end-to-end. Integro{" "}

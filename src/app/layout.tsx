@@ -18,13 +18,13 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  title: "Ricardo Ramirez — Frontend Developer Senior",
+  title: "Ricardo Ramirez — Frontend Developer",
   description:
-    "Senior Frontend Developer con +8 años. Especialista en React, Next.js y TypeScript avanzado, ecosistema TanStack y performance (Core Web Vitals).",
+    "Frontend Developer especializado en React, Next.js y TypeScript avanzado, ecosistema TanStack y performance (Core Web Vitals).",
   openGraph: {
-    title: "Ricardo Ramirez — Frontend Developer Senior",
+    title: "Ricardo Ramirez — Frontend Developer",
     description:
-      "Senior Frontend Developer con +8 años. Especialista en React, Next.js y TypeScript avanzado, ecosistema TanStack y performance (Core Web Vitals).",
+      "Frontend Developer especializado en React, Next.js y TypeScript avanzado, ecosistema TanStack y performance (Core Web Vitals).",
     type: "website",
     locale: "es_AR",
   },

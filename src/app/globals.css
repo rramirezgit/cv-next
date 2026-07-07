@@ -1854,6 +1854,130 @@ body::before {
 }
 
 /* ============================================
+   PRINT-ONLY CV — ATS-SAFE (single column)
+   No sidebar, no icons, no tables: parses cleanly
+   in Greenhouse/Lever/Workday-class ATS.
+============================================ */
+body:has(.ats-resume) {
+  background: #fff;
+}
+.ats-resume {
+  max-width: 210mm;
+  margin: 0 auto;
+  background: #fff;
+  color: #1e293b;
+  font-family: var(--font-sans);
+  font-size: 10.5pt;
+  line-height: 1.5;
+  padding: 20mm 18mm;
+}
+.ats-header {
+  margin-bottom: 14pt;
+  padding-bottom: 10pt;
+  border-bottom: 1.5pt solid #cbd5e1;
+}
+.ats-name {
+  font-size: 20pt;
+  font-weight: 700;
+  color: #0f172a;
+}
+.ats-title {
+  font-size: 12pt;
+  font-weight: 500;
+  color: #334155;
+  margin-top: 2pt;
+}
+.ats-contact {
+  font-size: 9.5pt;
+  color: #475569;
+  margin-top: 6pt;
+}
+.ats-section {
+  margin-bottom: 14pt;
+}
+.ats-section-title {
+  font-size: 11pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #0f172a;
+  border-bottom: 1pt solid #cbd5e1;
+  padding-bottom: 3pt;
+  margin-bottom: 8pt;
+}
+.ats-summary {
+  font-size: 10pt;
+  color: #334155;
+  margin: 0;
+}
+.ats-exp-item {
+  margin-bottom: 12pt;
+  page-break-inside: avoid;
+}
+.ats-exp-item:last-child {
+  margin-bottom: 0;
+}
+.ats-exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4pt;
+}
+.ats-exp-role {
+  font-size: 10.5pt;
+  font-weight: 700;
+  color: #0f172a;
+}
+.ats-exp-company {
+  font-weight: 600;
+  color: #1e293b;
+}
+.ats-exp-date {
+  font-size: 9pt;
+  color: #475569;
+  white-space: nowrap;
+}
+.ats-exp-company-desc {
+  font-size: 9pt;
+  font-style: italic;
+  color: #64748b;
+  margin: 1pt 0 3pt;
+}
+.ats-exp-achievements {
+  margin: 4pt 0 4pt 16pt;
+  padding: 0;
+}
+.ats-exp-achievements li {
+  font-size: 9.5pt;
+  color: #334155;
+  margin-bottom: 2pt;
+}
+.ats-exp-tech {
+  font-size: 9pt;
+  color: #475569;
+  margin-top: 2pt;
+}
+.ats-skill-row {
+  font-size: 9.5pt;
+  color: #334155;
+  margin-bottom: 4pt;
+}
+.ats-skill-label {
+  font-weight: 700;
+  color: #0f172a;
+}
+.ats-plain {
+  font-size: 9.5pt;
+  color: #334155;
+  margin: 0;
+}
+.ats-edu-item {
+  font-size: 9.5pt;
+  color: #334155;
+}
+
+/* ============================================
    PRINT MEDIA
 ============================================ */
 @media print {
@@ -1895,6 +2019,13 @@ body::before {
   .cv-sidebar {
     width: 72mm;
     min-height: 297mm;
+  }
+  body:has(.ats-resume) {
+    overflow: visible !important;
+  }
+  .ats-resume {
+    max-width: none;
+    padding: 15mm 18mm;
   }
 }
 
